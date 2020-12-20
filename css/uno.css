@@ -1,0 +1,92 @@
+* {
+  font-family: 'Lobster', cursive;
+  font-weight: 100;
+  font-style: normal;
+  border-radius: 10px;
+
+
+}
+header {
+  position: fixed;
+}
+
+#uno {
+
+  margin: 20px;
+  padding: 10px;
+  display: block;
+
+}
+.caja1 {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+
+}
+
+
+
+.caja1:hover {
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+}
+.caja2 {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+
+}
+.caja2:hover {
+  padding: 10px;
+  background-color:  #fff;
+  color: #000;
+
+}
+.dos {
+  padding-right: 20px;
+}
+
+body {
+  background-color: #1214;
+  width: 50%;
+  transition: all 2s;
+  scroll-behavior: no;
+  
+}
+
+body:active {
+   background: #ff15;
+   width: 100%;
+
+}
+
+.input {
+  position: fixed;
+  margin: 25px;
+  transition: 1s;
+  background: lightgrey;
+  align-content: center;
+  display: inline;
+  right: 10px;
+  top: 45px;
+  text-align: center;
+  text: (Felices Fistas);
+
+}
+
+img{
+  object-fit: cover;
+  cursor: cell;
+}
+
+.dos {
+ position: fixed;
+ top: 106px;
+}
+
+.input:focus {
+  background: white;
+  margin-left:  15px;
+  text-align: center;
+}
